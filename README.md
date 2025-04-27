@@ -55,3 +55,18 @@ pip install -r requirements.txt
 - [`Agent`](https://docs.haystack.deepset.ai/docs/agent) – component for the smart decision-maker
 - [`MCPTool`](https://docs.haystack.deepset.ai/docs/mcptool) – lets your agent talk to the MCP Server
 
+### Environment Variables:
+
+- `GITHUB_PERSONAL_ACCESS_TOKEN`: Your GitHub token
+- `GITHUB_TOOLSETS`: Comma-separated list of GitHub toolsets to use
+- `OPENAI_API_KEY`: Your OpenAI API key
+- `GITHUB_OWNER`: Your GitHub username
+- `GITHUB_REPO`: Your GitHub repository
+
+### Running the Agent:
+- Run from the root directory
+```
+python src/github-agent.py
+```
+
+> Note: The `mcp-haystack` package requires Python ≥ 3.10
