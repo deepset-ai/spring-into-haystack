@@ -1,2 +1,4 @@
 haystack-ai
 mcp-haystack
+dotenv
+black
