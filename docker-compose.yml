@@ -1,0 +1,7 @@
+services:
+  github-mcp-server:
+    image: ghcr.io/github/github-mcp-server:latest
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
