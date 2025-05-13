@@ -1,2 +1,2 @@
-haystack-ai==2.12.2
+haystack-ai
 mcp-haystack
