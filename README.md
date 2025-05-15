@@ -32,6 +32,7 @@ This will prove that your Agent can:
 
 1. **Fork** this repo on GitHub
 2. **Fill in the missing peices** in [`github-agent.py`](src/github-agent.py) to build your MCP-connected Agent
+3. Once you're done, check out [`solution.py`](src/solution.py) to compare your implementation.
 
 ### Requirements:
 
