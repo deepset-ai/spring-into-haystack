@@ -28,16 +28,11 @@ This will prove that your Agent can:
 - Select the right tool(s) from the GitHub MCP server
 - Execute an action on GitHub
 
-## 🌷 How to Participate
+## 🌷 Start Building
 
 1. **Fork** this repo on GitHub
 2. **Fill in the missing peices** in [`github-agent.py`](src/github-agent.py) to build your MCP-connected Agent
-3. **Push your code** to your forked repo
-4. **[Submit the link](https://forms.gle/VbyhQrKz1niyzBmGA) to the repo** so we can see your creation in full bloom!
-
-For more info, check out [Spring Into Haystack](https://haystack.deepset.ai/spring-into-haystack) webpage.
-
-## Start Building
+3. Once you're done, check out [`solution.py`](src/solution.py) to compare your implementation.
 
 ### Requirements:
 
@@ -54,4 +49,6 @@ pip install -r requirements.txt
 
 - [`Agent`](https://docs.haystack.deepset.ai/docs/agent) – component for the smart decision-maker
 - [`MCPTool`](https://docs.haystack.deepset.ai/docs/mcptool) – lets your agent talk to the MCP Server
+
+
 
